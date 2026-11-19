@@ -26,7 +26,8 @@
       ],
       "blockedPermissions": [
         "RECORD_AUDIO"
-      ]
+      ],
+      "versionCode": 1
     },
     "plugins": [
       "expo-router",
@@ -65,6 +66,9 @@
       "eas": {
         "projectId": ""
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
