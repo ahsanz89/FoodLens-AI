@@ -64,11 +64,12 @@
     ],
     "extra": {
       "eas": {
-        "projectId": ""
+        "projectId": "da4ba8c1-c2dd-495b-ab03-f77eacce3a5e"
       }
     },
     "runtimeVersion": {
       "policy": "appVersion"
-    }
+    },
+    "owner": "ahsanzaheer89s-team"
   }
 }
