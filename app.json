@@ -7,7 +7,6 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -26,8 +25,7 @@
       ],
       "blockedPermissions": [
         "RECORD_AUDIO"
-      ],
-      "versionCode": 1
+      ]
     },
     "plugins": [
       "expo-router",
@@ -48,17 +46,7 @@
       [
         "react-native-google-mobile-ads",
         {
-          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
-          "userTrackingPermission": false
-        }
-      ],
-      [
-        "expo-build-properties",
-        {
-          "android": {
-            "compileSdkVersion": 36,
-            "targetSdkVersion": 36
-          }
+          "androidAppId": "ca-app-pub-3940256099942544~3347511713"
         }
       ]
     ],
