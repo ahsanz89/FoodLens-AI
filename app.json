@@ -13,7 +13,7 @@
       "backgroundColor": "#FAFAF7"
     },
     "android": {
-      "package": "foodlens.ai",
+      "package": "com.ahsanz89.foodlens",
       "adaptiveIcon": {
         "backgroundColor": "#2E8B57",
         "foregroundImage": "./assets/android-icon-foreground.png",
