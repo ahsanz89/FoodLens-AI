@@ -10,7 +10,7 @@ Everything the repo can prepare is done: icons, feature graphic, `eas.json`, a b
 4. **AdMob** (admob.google.com): create the app and four ad units, put the real IDs in EAS env vars and the app ID in `app.json` (`react-native-google-mobile-ads.androidAppId`). Ads run on test IDs until you do.
 5. **First upload must be manual.** Play requires the first AAB to be uploaded by hand: run `npx eas-cli@latest build -p android --profile production`, download the `.aab`, create the app in Play Console and upload it to the Internal testing track. (EAS manages the signing key; opt in to Play App Signing.)
 6. **Automated releases after that.** Create a Play *service account* (Play Console → Setup → API access → Google Cloud), grant it Release manager rights, download the JSON key. In GitHub → Settings → Secrets → Actions add `EXPO_TOKEN` and `PLAY_SERVICE_ACCOUNT_JSON`. Then Actions → *Android release (EAS)* → Run workflow (tick "submit"). It uploads a **draft** to Internal testing.
-7. **Privacy policy URL.** Replace `REPLACE_WITH_YOUR_EMAIL` in `docs/site/privacy.html`, enable GitHub Pages (Settings → Pages → Source: GitHub Actions); the URL will be `https://ahsanz89.github.io/FoodLens-AI/privacy.html`. Get the text legally reviewed.
+7. **Privacy policy URL.** Replace `ahsan.zaheer009@gmail.com` in `docs/site/privacy.html`, enable GitHub Pages (Settings → Pages → Source: GitHub Actions); the URL will be `https://ahsanz89.github.io/FoodLens-AI/privacy.html`. Get the text legally reviewed.
 8. **Complete the Play Console forms** using the answers below, take real screenshots (min. 2 phone screenshots, from a device build), then roll out.
 
 ## Store listing (copy/paste)
